@@ -1,0 +1,72 @@
+[
+    {
+        "icon":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167089/mmt/Group_33330_ppfbt0.png",
+        "paymentOptions":"Add Dabit,Credit Cards",
+        "next":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167106/mmt/Vector_7_odnktp.png"
+    },
+    {
+        "icon":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167089/mmt/Group_33331_bcdlni.png",
+        "paymentOptions":"BHIM UPI",
+        "next":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167106/mmt/Vector_7_odnktp.png"
+    },
+    {
+        "icon":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167089/mmt/Vector_6_htjiic.png",
+        "paymentOptions":"Net Banking",
+        "next":"url::https://res.cloudinary.com/decimal-tech/image/upload/v1649167106/mmt/Vector_7_odnktp.png"
+    }
+]
+
+
+this.tempObj("apiData.PAN_AUTH[0].response[0].")
+[
+    {
+        "name":"CBS EQ",
+        "qty":"100",
+        "net":"10",
+        "mv":"$1000"
+    },
+    {
+        "name":"IBN EQ",
+        "qty":"200",
+        "net":"10",
+        "mv":"$2000"
+    },{
+        "name":"Airbell EQ",
+        "qty":"300",
+        "net":"10",
+        "mv":"$2400"
+    }
+]
+
+
+[{"cid":"DEC7788","cn":"Yash Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC778","cn":"Kshitij Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC6778","cn":"Yogesh Jain","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC999","cn":"Rahul Verma Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC007","cn":"Riya Sen","mn":"9584736584","pro":"Portfolio Loan"}]
+[{"cid":"DEC7788","cn":"Yash Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC778","cn":"Kshitij Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC6778","cn":"Yogesh Jain","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC999","cn":"Rahul Verma Sharma","mn":"9584736584","pro":"Portfolio Loan"},{"cid":"DEC007","cn":"Riya Sen","mn":"9584736584","pro":"Portfolio Loan"}]
+
+
+{
+    "refId": "12345",
+    "amount": 1,
+    "remarks": "test",
+    "customerName": "abhinav mehta",
+    "customerMobileNo": "9999999999",
+    "customerEmailId": "abhinavmehta801@gmail.com",
+    "returnUrl": "https://abhinavmehta.dev",
+    "notifyUrl": "https://abhinavmehta.dev",
+    "cancelUrl": "https://abhinavmehta.dev",
+    "isAmountEditable": "N",
+    "userDefinedFields": {},
+    "merchantData": {}
+  }
+
+  this.tempObj("apiData.GENERATE_PAYMENT_LINK[0].response[0].paymentUrl")
+static("12345")
+this.workVariable("amount")
+static("test")
+static("abhinav mehta")
+static("9999999999")
+static("abhinavmehta801@gmail.com")
+static("https://abhinavmehta.dev")
+static("https://abhinavmehta.dev")
+static("https://abhinavmehta.dev")
+static("N")
+static("{}")
